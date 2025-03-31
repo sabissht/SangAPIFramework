@@ -19,5 +19,5 @@ Feature: validating Place Api's
     
     | name     | language | address        |
     | Sangeeta | English  | Rochfortbridge |
-  # | Shubham  | Irish    | Mullingar      |
+    | Shubham  | Irish    | Mullingar      |
 	

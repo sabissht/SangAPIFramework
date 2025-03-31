@@ -27,7 +27,7 @@ Body:
     }
 }
 HTTP/1.1 200 OK
-Date: Mon, 31 Mar 2025 16:30:28 GMT
+Date: Mon, 31 Mar 2025 17:18:29 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,8 +40,46 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "95d1bad9dddc07af32820874b85773e7",
+    "place_id": "e54a11295ea5e7b27cf1264e85a6f661",
     "scope": "APP",
-    "reference": "ac1e543c9c8124f472fb24b2c8d8e73eac1e543c9c8124f472fb24b2c8d8e73e",
-    "id": "ac1e543c9c8124f472fb24b2c8d8e73e"
+    "reference": "ed5e0d37d96d184f6948289e65579b39ed5e0d37d96d184f6948289e65579b39",
+    "id": "ed5e0d37d96d184f6948289e65579b39"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e54a11295ea5e7b27cf1264e85a6f661
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=e54a11295ea5e7b27cf1264e85a6f661
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 31 Mar 2025 17:18:31 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 237
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "Sangeeta",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Rochfortbridge",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
 }

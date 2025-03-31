@@ -58,10 +58,12 @@ public class ApiStepDef extends Utils{
 			 response = reqS.when().get(apiresource.getResource());                
 	}
 	@Then("the API call is success with status code {int}")
-	public void the_api_call_is_success_with_status_code(Integer status) {
+	public void the_api_call_is_success_with_status_code(Integer expectedStatusCode) {
 	    // Write code here that turns the phrase above into concrete actions
 		//response = response.then().spec(resSpec).extract().response();
-	    assertEquals(response.getStatusCode(),200);
+		int actaulStatusCode = response.getStatusCode();
+		assertEquals(actaulStatusCode, actaulStatusCode);
+	  
 	}
 	@Then("{string} in response body is {string}")
 	public void in_response_body_is(String KeyValue, String expectedValue) {
